@@ -28,11 +28,9 @@ public class ClientInit {
     }
 
     public void initialize(String ip, int port) {
-
-        // Dùng để chụp ảnh màn hình
         Robot robot = null;
-        // Đại diện kích thước màn hình
-        Rectangle rectangle = null; //Used to represent screen dimensions
+        
+        Rectangle rectangle = null; 
 
         try {
             System.out.println("Connecting to server ..........");
